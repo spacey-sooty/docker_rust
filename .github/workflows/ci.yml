@@ -17,5 +17,5 @@ jobs:
     - name: Rust-Build
       run: cargo build --verbose
     - name: Docker-Build
-      run: docker-build
+      run: ./docker-build
 
