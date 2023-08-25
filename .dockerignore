@@ -1,2 +1,6 @@
 /.github
+/target
+/.git
+.gitignore
+.gitattributes
 
