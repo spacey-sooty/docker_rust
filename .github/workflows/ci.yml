@@ -13,5 +13,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: Build
+    - run: chmod +x docker-build.sh
+    - name: Rust-Build
       run: cargo build --verbose
+    - name: Docker-Build
+      run: docker-build
+
