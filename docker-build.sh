@@ -1,3 +1,3 @@
 #!/bin/bash
-docker build -t docker_rust ./deploy
+docker build -t docker_rust .
 
