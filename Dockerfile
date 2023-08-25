@@ -1,6 +1,6 @@
 FROM rust:1.72.0
 
-COPY . ./deploy
+COPY . .
 
 RUN cargo build --release
 
