@@ -1,0 +1,8 @@
+[profile.release]
+lto = true
+strip = "debuginfo"
+
+[alias]
+b = "build"
+br = "build --release"
+
